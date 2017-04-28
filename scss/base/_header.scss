@@ -1,0 +1,23 @@
+#top-image {
+	margin: 0;
+	background: url('http://kingofwallpapers.com/keanu-reeves/keanu-reeves-001.jpg') center center no-repeat;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+	height: 100%;
+	width: 100%;
+	display:flex;
+	align-items: center;
+	border-radius: 0;
+}
+
+#head-text {
+	font-weight:200;
+	max-width:60rem;
+	margin: 0 auto;
+	text-align:center;
+	color:white;
+	text-shadow: 2px 2px black;
+
+}
