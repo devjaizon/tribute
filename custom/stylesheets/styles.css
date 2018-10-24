@@ -1,0 +1,139 @@
+body, html {
+	font-size: 1.2rem;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	margin:0;
+	height: 100%;
+	min-width: 520px;
+	scroll-behavior: smooth;
+}
+h3, h5 {
+	color: #529BFF;
+}
+#main {
+	height: 100%;
+	width: 100%;
+}
+#hero {
+	margin: 0;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('../../images/hero-image.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#blur-cover {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.1);
+	filter: blur(8px);
+	position: absolute;
+	z-index: 1;
+}
+#hero-text {
+	background-color: rgb(0,0,0,0.5);
+	padding: 1rem;
+	box-shadow: 0px 0px 5px white;
+	position: absolute;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	align-items:  center;
+	color: #fafafa;
+	text-shadow: 1px 1px 1px black, 2px 2px 3px gray;
+}
+#hero-text>h3 {
+	color: #fafafa;
+}
+#title {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 4rem;
+}
+#about {
+	height: 100%;
+	background-color: blue;
+}
+#tribute {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 3rem;
+}
+#tribute > div {
+	margin: 0 2rem;
+	width: 500px;
+	margin-bottom: 2rem;
+}
+#img-caption {
+	margin-left:25%;
+}
+#image {
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	order: 1;
+}
+#tribute-info {
+	order: 2;
+}
+#works {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 1rem 1rem;
+	background-color:#292b2c;
+}
+.card {
+	margin: 1rem;
+	max-width: 300px;
+	flex-basis: auto;
+	flex-grow: 1;
+	color: #E2E2E2;
+}
+.card > img {
+    width: 100%;
+    height: 170px;
+}
+#more {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+#more>div {
+	width: 25rem;
+}
+#more-image {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem;
+}
+#more-image>img{
+	width: 100%;
+}
+#footer {
+	background-color: #393939;
+	text-align: center;
+	margin-bottom: 0;
+	padding: 1rem;
+	font-size: 1rem;
+	color: white;
+}
+#footer>p,#img-caption{
+	font-size: 0.9rem;
+}
+a{
+	color: #529BFF;
+	text-decoration: none;
+}
+a:hover {
+	color: cyan;
+	text-shadow: 0.5px 0px 5px white;
+}

@@ -1,98 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Tribute Page</title>
+	<title>Tribute Page</title>
+	<link rel="stylesheet" type="text/css" href="custom/stylesheets/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Concert+One|Dancing+Script|Gloria+Hallelujah|Lobster|Macondo|Pacifico|Rubik+Mono+One">
-    <!--thissection is for live preview -->
+</head>
 <body>
-    <!-- header -->
-    <section class="jumbotron-fluid" id="top-image">
-		<div id="head-text">
-		    <h3>This is a tribute to:</h3>
-		    <h1>Keanu Reeves</h1>
-		    <h4>One of the greatest actors ever!</h4>
+	<section id="main">
+		<div id="hero">
+			<div id="blur-cover"></div>
+			<div id="hero-text">
+				<h3>This is a tribute to:</h3>
+				<h1 id="title">KEANU REEVES</h1>
+				<h3>One of the greatest actors ever!</h3>
+			</div>
 		</div>
-	</section>
-	<section class="about container-fluid">
-		<div class="row card-row">
-			<div class="card col-md-6">
-				<h5>The beginning</h5></br>
+		<div id="tribute">
+			<div id="tribute-info">
+				<h3>The beginning</h3>
 				<p>Keanu Charles Reeves born in September 2, 1964) is a Canadian actor, producer, and musician. Reeves is best known for his acting career, beginning in 1985 and spanning more than three decades.</p>
 			</div>
-			<div class="col-md-1"></div>
-			<div class="card col-md-5">
-				<img src="img/1.jpg" alt="keanu Reeves" id="about-img">
+			<div id="img-div">
+				<img id="image" src="images/keanu-54.jpg"></img>
+				<p id="img-caption">This is a picture of him with 54 years old!</p>
 			</div>
 		</div>
-	</section>
-	<section class="works container-fluid">
-		<div class="row card-row">
-			<div class="col-md-4">
-				<div class="card">
-					<img class="card-img-top img-fluid mx-auto d-block" src="https://i.ytimg.com/vi/fJlxho8jqWE/maxresdefault.jpg" alt="Much Ado About Nothing (1993)">
-					<div class="card-header">
-						<h5 style="letter-spacing: 1.5px; word-spacing: 1.5px;" class="card-title">Much Ado About Nothing (1993)</h5>
-					</div>
-					<div class="card-block">
-						<p class="card-text">Thanks to director/star Kenneth Branagh and a robust cast including Denzel Washington, Michael Keaton and Emma Thompson, Reeves proved he could play dashing in a Shakespeare comedy.<br><br></p>
-					</div>
-				</div>
+		<div id="works">
+			<div class="card" id="card1">
+				<img src="images/much-ado-about-nothing.jpg" alt="Much Ado About Nothing (1993)">
+				<h5>Much Ado About Nothing (1993)</h5>
+				<p>Thanks to director/star Kenneth Branagh and a robust cast including Denzel Washington, Michael Keaton and Emma Thompson, Reeves proved he could play dashing in a Shakespeare comedy.<br><br></p>
+			</div >
+			<div class="card" id="card2">
+				<img src="images/bill-&-ted's-excellent-adventure.jpg" alt="Bill & Ted's Excellent Adventure 	(1989)">
+				<h5>Bill & Ted's Excellent Adventure (1989)</h5>
+				<p>This is the role that truly put Reeves on the map. Along with best bud Alex Winter, he played a California airhead to satiric perfection, and most rightiously traveled through time to bag some of the most important historical figures of all-time.</p>
 			</div>
-			<div class="col-md-4">
-				<div class="card">
-					<img class="card-img-top img-fluid mx-auto d-block" src="https://i.ytimg.com/vi/Ggakzrornp4/maxresdefault.jpg" alt="Bill & Ted's Excellent Adventure 	(1989)">
-					<div class="card-header">
-						<h5 class="card-title">Bill & Ted's Excellent Adventure (1989)</h5>
-					</div>
-
-					<div class="card-block">
-
-						<p class="card-text">This is the role that truly put Reeves on the map. Along with best bud Alex Winter, he played a California airhead to satiric perfection, and most rightiously traveled through time to bag some of the most important historical figures of all-time.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="card">
-					<img class="card-img-top img-fluid mx-auto d-block" src="img/2.jpg" alt="My Own Private Idaho (1991)">
-					<div class="card-header">
-						<h5 style="letter-spacing: 2px; word-spacing: 2px;" class="card-title spacing">My Own Private Idaho (1991)</h5>
-					</div>
-					<div class="card-block">
-						<p class="card-text">Gus Van Sant's lyrical, Shakespearian tale of male street hustlers searching for meaning won accolades for Reeves and proved something of a turning point away from the surfer dude stereotype.</p>
-					</div>
-				</div>
+			<div class="card" id="card3">
+				<img src="images/my-own-private-idaho.jpg" alt="My Own Private Idaho (1991)">
+				<h5>My Own Private Idaho (1991)</h5>
+				<p>Gus Van Sant's lyrical, Shakespearian tale of male street hustlers searching for meaning won accolades for Reeves and proved something of a turning point away from the surfer dude stereotype.</p>
 			</div>
 		</div>
-		<p>For a list with all his movies go <a href="https://www.imdb.com/list/ls000568762/" target="_blank">here</a>.</p>
-	</section>
-	<section class="more container-fluid">
-		<div class="row card-row">
-			<div class="card col-ld-6 col-md-6">
+		<div id="more">
+			<div id="more-text">
 				<h5>And much more!</h5></br>
 				<p>During his film career, Reeves has engaged in several forms of artistic expression. He played bass guitar for the Dogstar and Becky, performed for the Manitoba Theatre Centre's, wrote the text for a picture book, produced a documentary and directed a martial arts film.</p>
 			</div>
-			<div class="card col-lg-3 hidden-md-down">
-				<img src="https://s-media-cache-ak0.pinimg.com/736x/e2/e1/57/e2e1578e4eadfd1768c84b7e3b118e97.jpg" alt="keanu Reeves acting in Hamlet's production" class="more-img img-fluid hidden-md-down">
-			</div>
-			<div class="col-sm-1 hidden-lg-up"></div>
-			<div class="card col-lg-3 col-md-5">
-				<img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2013/2/14/1360844349640/Keanu-Reeves-Side-by-Side-010.jpg?w=300&q=55&auto=format&usm=12&fit=max&s=64b47d8853b38a56c50c76b8b035015a" alt="Keanu Reeves in Sideby Side documentary" class="more-img img-fluid">
+			<div id="more-image">
+				<img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2013/2/14/1360844349640/Keanu-Reeves-Side-by-Side-010.jpg?w=300&q=55&auto=format&usm=12&fit=max&s=64b47d8853b38a56c50c76b8b035015a" alt="Keanu Reeves in Sideby Side documentary">
 			</div>
 		</div>
+		<div id="footer">
+			<p id="footer-text">For more info about him visit his bios on the <a id="tribute-link" href="https://en.wikipedia.org/wiki/Keanu_Reeves" target="_blank">wiki</a> or on the <a href="https://www.imdb.com/name/nm0000206/?ref_=nmbio_bio_nm" target="_blank">IMDb</a>.</p>
+			<p id="footer-cpr">Designed by <a href="https://www.facebook.com/carlosjaizon" target="_blank">Jáizon Carlos</a>.</p>
+		</div>
 	</section>
-	<section class="footer container-fluid" id="footer">
-		<p class="footer-text" id="link">For more info about him visit his bios on the <a href="https://en.wikipedia.org/wiki/Keanu_Reeves" target="_blank">wiki</a> or on the <a href="https://www.imdb.com/name/nm0000206/?ref_=nmbio_bio_nm" target="_blank">IMDb</a>.</p>
-		<p class="footer-cpr">Designed by <a href="https://www.facebook.com/carlosjaizon" target="_blank">Jáizon Carlos</a>.</p>
-	</section>
-    <!-- jQuery first, then Bootstrap JS. -->
-    <script src="js/bootstrap.min.js"></script>
+
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
