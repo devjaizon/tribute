@@ -3,7 +3,6 @@ body, html {
 	font-family: 'Source Sans Pro', Arial, sans-serif;
 	margin:0;
 	height: 100%;
-	min-width: 520px;
 	scroll-behavior: smooth;
 }
 h3, h5 {
